@@ -61,7 +61,6 @@ arr[0] = (s.indexOf('PM') > -1) ?
 return arr.join(':');
 
 function timeConversion(s) {
-    // Write your code here
     let hours = s.substr(0, 2);
     let minutes = s.substr(3, 2);
     let seconds = s.substr(-4, 2);
